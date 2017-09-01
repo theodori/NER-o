@@ -4,7 +4,7 @@ import sys.process._
 
 object CsvHandler {
 
-  val moduleCall = "python /Users/andrea.birotti/hack-and-play/NER/NER/src/main/python/stdin_to_stdout.py"
+  val moduleCall = "python /Users/andrea.birotti/hack-and-play/NER/NER/src/main/python/ne_chunk.py"
 
   def main(args: Array[String]): Unit = {
 
