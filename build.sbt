@@ -4,4 +4,4 @@ version := "1.0"
 
 scalaVersion := "2.12.1"
 libraryDependencies += "org.json4s" % "json4s-jackson_2.12" % "3.5.2"
-libraryDependencies += "jep" % "jep" % "2.40"
+libraryDependencies += "org.nlp2rdf" % "nif" % "0.4"

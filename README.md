@@ -14,3 +14,5 @@ The initial domains of interest are:
  the annotation text in std.out in BIO encoding (http://nltk.org/book/ch07.html)
 
 # References
+* Used this Java Lib to generate NIF rdf https://github.com/NLP2RDF/NIF-lib
+
