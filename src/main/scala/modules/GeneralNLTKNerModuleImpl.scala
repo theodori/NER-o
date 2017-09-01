@@ -1,8 +1,9 @@
 package modules
 import ner.modules.NerModule
 
-class GeneralNLTKNerModuleImpl (cmd:String) extends NerModule{
-
+// it is required to have installed python
+class GeneralNLTKNerModuleImpl () extends NerModule{
+  val cmd="python " + getClass.getResource("/ne_chunk.py").getPath
   override def process(input: String): Some[String] = {
     println(input)
     println(cmd)
